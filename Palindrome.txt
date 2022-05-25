@@ -1,3 +1,4 @@
+C programming Code
 Check if a string is palindrome or not?
 
 #include<stdio.h>
