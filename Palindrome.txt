@@ -1,0 +1,54 @@
+Check if a string is palindrome or not?
+
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+char string[10]="NOON";
+int len,i;
+
+len=strlen(string);
+printf("%d", len);
+for(i=0;i<len/2;i++)
+{
+    if(string[i]!=string[len-1-i])
+    {
+    printf("Number is not a palindrome");
+    break;
+    }
+}
+ if(i==len/2)
+ printf("Number is a palindrome");
+
+}
+
+
+
+
+
+
+// Program to find palindrome number
+#include <stdio.h>
+
+int main() 
+{
+    // Write C code here
+    int n, rem, rev=0, temp;
+    
+    printf("Enter a Number: ");
+    scanf("%d", &n);
+   temp=n;
+    while(n>0)
+    {
+        rem=n%10;
+        rev=rev*10+rem;
+        n=n/10;
+    }
+   n=temp;
+   
+    if(n==rev)
+    printf("Number is Palindrome", n);
+    else
+    printf("Number is not a Palindrome", n);
+    return 0;
+}
