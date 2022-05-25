@@ -14,12 +14,12 @@ for(i=0;i<len/2;i++)
 {
     if(string[i]!=string[len-1-i])
     {
-    printf("Number is not a palindrome");
+    printf("not a palindrome");
     break;
     }
 }
  if(i==len/2)
- printf("Number is a palindrome");
+ printf(" palindrome");
 
 }
 
