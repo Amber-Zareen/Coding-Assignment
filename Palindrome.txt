@@ -23,6 +23,11 @@ for(i=0;i<len/2;i++)
 
 }
 
+if(i!=len/2)
+ printf("Number is a Nothing");
+
+}
+
 
 
 
